@@ -1,0 +1,215 @@
+{
+    "видеокарты": {
+        "nvidia": [
+            {
+                "brand": "nvidia",
+                "name": "RTX 5060",
+                "price": 299.0,
+                "vram": 8,
+                "interface": "PCI-E 5.0 x8"
+            },
+            {
+                "brand": "nvidia",
+                "name": "RTX 4070 Super",
+                "price": 599.0,
+                "vram": 12,
+                "interface": "PCI-E 4.0 x16"
+            },
+            {
+                "brand": "nvidia",
+                "name": "RTX 4090",
+                "price": 1599.0,
+                "vram": 24,
+                "interface": "PCI-E 4.0 x16"
+            },
+            {
+                "brand": "nvidia",
+                "name": "RTX 5050",
+                "price": 249.0,
+                "vram": 8,
+                "interface": "PCI-E 5.0 x8"
+            }
+        ],
+        "amd": [
+            {
+                "brand": "amd",
+                "name": "Radeon RX 7800 XT",
+                "price": 499.0,
+                "vram": 16,
+                "interface": "PCI-E 4.0 x16"
+            },
+            {
+                "brand": "amd",
+                "name": "Radeon RX 7600",
+                "price": 269.0,
+                "vram": 8,
+                "interface": "PCI-E 4.0 x8"
+            }
+        ],
+        "intel": [
+            {
+                "brand": "intel",
+                "name": "Arc A770",
+                "price": 299.0,
+                "vram": 16,
+                "interface": "PCI-E 4.0 x16"
+            }
+        ]
+    },
+    "процессоры": {
+        "intel": [
+            {
+                "brand": "intel",
+                "name": "Core i5-12400f",
+                "price": 200.0,
+                "cores": 6,
+                "threads": 12,
+                "socket": "LGA 1700"
+            },
+            {
+                "brand": "intel",
+                "name": "Core i7-14700K",
+                "price": 400.0,
+                "cores": 20,
+                "threads": 28,
+                "socket": "LGA 1700"
+            },
+            {
+                "brand": "intel",
+                "name": "Core i9-14900K",
+                "price": 580.0,
+                "cores": 24,
+                "threads": 32,
+                "socket": "LGA 1700"
+            }
+        ],
+        "amd": [
+            {
+                "brand": "amd",
+                "name": "Ryzen 7 7800X3D",
+                "price": 399.0,
+                "cores": 8,
+                "threads": 16,
+                "socket": "AM5"
+            },
+            {
+                "brand": "amd",
+                "name": "Ryzen 5 7600",
+                "price": 220.0,
+                "cores": 6,
+                "threads": 12,
+                "socket": "AM5"
+            }
+        ]
+    },
+    "материнские_платы": {
+        "msi": [
+            {
+                "brand": "msi",
+                "name": "PRO B760M-P DDR4",
+                "price": 110.0,
+                "chipset": "B760",
+                "form_factor": "mATX"
+            },
+            {
+                "brand": "msi",
+                "name": "MPG Z790 EDGE WIFI",
+                "price": 350.0,
+                "chipset": "Z790",
+                "form_factor": "ATX"
+            }
+        ],
+        "asus": [
+            {
+                "brand": "asus",
+                "name": "ROG STRIX B550-F",
+                "price": 190.0,
+                "chipset": "B550",
+                "form_factor": "ATX"
+            },
+            {
+                "brand": "asus",
+                "name": "TUF GAMING B650-PLUS",
+                "price": 210.0,
+                "chipset": "B650",
+                "form_factor": "ATX"
+            }
+        ]
+    },
+    "оперативная_память": {
+        "kingston": [
+            {
+                "brand": "kingston",
+                "name": "Fury Beast RGB",
+                "price": 90.0,
+                "ram_type": "ddr4",
+                "frequency": 3200,
+                "memory": 32
+            },
+            {
+                "brand": "kingston",
+                "name": "Fury Renegade",
+                "price": 150.0,
+                "ram_type": "ddr5",
+                "frequency": 6000,
+                "memory": 32
+            }
+        ],
+        "g.skill": [
+            {
+                "brand": "g.skill",
+                "name": "Trident Z5 Neo",
+                "price": 160.0,
+                "ram_type": "ddr5",
+                "frequency": 6400,
+                "memory": 32
+            },
+            {
+                "brand": "g.skill",
+                "name": "Ripjaws V",
+                "price": 70.0,
+                "ram_type": "ddr4",
+                "frequency": 3600,
+                "memory": 16
+            }
+        ]
+    },
+    "ссд": {
+        "samsung": [
+            {
+                "brand": "samsung",
+                "name": "980 Pro",
+                "price": 120.0,
+                "memory": 1000,
+                "speed": 7000,
+                "ssd_type": "NVMe"
+            },
+            {
+                "brand": "samsung",
+                "name": "870 EVO",
+                "price": 80.0,
+                "memory": 1000,
+                "speed": 560,
+                "ssd_type": "SATA"
+            }
+        ],
+        "crucial": [
+            {
+                "brand": "crucial",
+                "name": "P5 Plus",
+                "price": 100.0,
+                "memory": 1000,
+                "speed": 6600,
+                "ssd_type": "NVMe"
+            },
+            {
+                "brand": "crucial",
+                "name": "MX500",
+                "price": 65.0,
+                "memory": 500,
+                "speed": 540,
+                "ssd_type": "SATA"
+            }
+        ]
+    }
+}
